@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<title>baitap4</title>
 </head>
+	
 <style>
 table{
 	background-color: #000000;
@@ -32,6 +33,20 @@ footer {
 	margin: 8px 16px;
 }
 </style>
+	
+<script type="text/javascript">
+	    const passField = document.querySelector("input");
+      const showBtn = document.querySelector("span i");
+      showBtn.onclick = (()=>{
+        if(passField.type = "password"){
+          passField.type = "text";
+          showBtn.classList.add("hide-btn");
+        }else{
+          passField.type = "password";
+          showBtn.classList.remove("hide-btn");
+        }
+      });
+</script>
 
 <body>
 
