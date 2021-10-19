@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="utf-8">
+	<title>baitap4</title>
+</head>
+<style>
+table{
+	background-color: #000000;
+}
+h1{
+	background-color: #420B00;
+}
+.p2 {
+	font-family: Arial, Helvetica, sans-serif; color: #FFFF;
+}
+input[type=submit] {
+	background-color: lightgray;
+	border: none;
+	color: gray;
+	padding: 19px 31px;
+	text-decoration: none;
+	margin: 8px 10px;
+	cursor: pointer;
+}
+input[type="email"],[type="username"],[type="password"],[type="password"] {
+	font-size: 35px;
+}
+footer {
+	font-size: 30px;
+	padding: 19px 31px;
+	margin: 8px 16px;
+}
+</style>
+
+<body>
+
+	<form class="p2">
+		<table align="center">
+			<th>
+				<td><!--Phần #header-->
+					<h1> <font color="red">X</font>VIDEO MEMBERS</h1>
+					<div id="header">
+						Create a new account:
+						<hr>
+					</div>
+					<!--Kết thúc #header-->
+					<!--Phần nội dung-->
+					<div id="content">
+						<table>
+							<tr>
+								<td>
+									<label>Your email (login):</label>
+								</td>
+								<td>	
+									<input type="email" >
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label>Profile name:</label>
+								</td>
+								<td>
+									<input type="username">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label>Mật khẩu:</label>
+								</td>
+								<td class="container">
+									<input type="password" required="">
+									<span class="show-btn"><i class="fas fa-eye"></i></span>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label>Password again:</label>
+								</td>
+								<td class="container">
+									<input type="password" required="">
+									<span class="show-btn"><i class="fas fa-eye"></i></span>
+								</td>
+							</tr>
+						</table>
+					</div>
+					<!--Kết thúc nội dung-->
+					<!--Phần chân trang-->
+					<div id="footer">
+						<input type="checkbox" checked>
+						<label> By signing up, you agree to our 
+								<a href="https://info.xvideos.com/legal/tos/">Terms of service </a> 
+								and our 
+								<a href="https://info.xvideos.com/legal/privacy/">Privarcy of policy</a>
+								.
+						</label>
+					</div>
+					<!--Kết thúc chân trang-->
+					<!--Phần chân trang-->
+					<div id="footer">
+						<input type="submit" value="Next">
+					</div>
+					<!--Kết thúc chân trang-->
+				</td>
+			</th>
+		</table>
+	</form>
+</body>
+</html>
